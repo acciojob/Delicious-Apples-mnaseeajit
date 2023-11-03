@@ -1,1 +1,75 @@
 /* your code here */
+body{
+	background-color : #10e37f;
+	width : 90vw;
+	height : 100px;
+}
+.photo-container{
+	background-color : white;
+}
+.photo-main{
+	background-color : #c0ed55;
+	width : 400px;
+	
+}
+
+.controls{
+	display : flex;
+	justify-content : space-between;
+	color : white;
+	padding : 10px;
+}
+.photo-album{
+	width : 400px;
+	
+}
+.photo-album>ul{
+	display : flex;
+	list-style-type : none;
+	padding-bottom : 10px;
+}
+.photo-album>ul>li{
+	border : 1px solid #d3d3d3;
+	margin-inline : 10px;
+}
+.product{
+	display : flex;
+	
+}
+.product__info{
+	margin : 10px;
+	background-color : white;
+	width : 500px;
+	z-index : 1;
+}
+.title>span{
+	color : #e5e5e5;
+}
+.price{
+	color : #fe4142;
+}
+.price>span{
+	font-size : 50px;
+}
+.variant>h3{
+	color : #6d6d6d;
+}
+.variant>ul{
+	display : flex;
+	list-style-type : none;
+}
+.variant>ul>li:nth-child(1){
+	border : 1px solid #d3d3d3;
+}
+.description>h3{
+	color : #6d6d6d;
+}
+button{
+	background-color : #fe3f40;
+	color : white;
+	border : none;
+	width : 100px;
+	height : 30px;
+}
+
+
